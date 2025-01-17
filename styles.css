@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif; 
+}
+
+body {
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('website.png') no-repeat center center/cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px; 
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero .overlay .coming-soon {
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Italiana', serif;
+  font-weight: normal;
+}
+
+/* Contact Us Section */
+.contact-us {
+  background: #f5f5f5;
+  color: #333;
+  padding: 50px 20px;
+  text-align: center;
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Italiana', serif;
+}
+
+.contact-us p {
+  margin-bottom: 40px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.contact-us form {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.contact-us form input,
+.contact-us form textarea,
+.contact-us form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+}
+
+.contact-us form button {
+  background: #6d2d24;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  width: auto;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.contact-us form button:hover {
+  background: #8a3c33;
+}
+
+
+/* Footer Section */
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: 'Italiana', serif; 
+}
+
+.footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 40px; 
+}
+
+.footer .social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif; 
+  font-size: 1rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin-top: 20px; 
+  font-family: 'Cabin', sans-serif;
+}
+
